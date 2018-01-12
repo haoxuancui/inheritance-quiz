@@ -1,12 +1,12 @@
 
 public class Beijing extends China
 {
-	protected int population=40;
+	protected int size=6490;
 	public Beijing()
 	{
 	System.out.println("Beijing is the capital city of China.");
 	}
-	public Beijing(int size)
+	public Beijing(int population)
 	{
 		System.out.println("We have "+ population +" millions people in Beijing.");
 	}
@@ -20,7 +20,7 @@ public class Beijing extends China
 	}
 	public void superclasstest()
 	{
-		System.out.println(super.population);
-		System.out.println(population);
+		System.out.println(super.size);
+		System.out.println(size);
 	}
 }

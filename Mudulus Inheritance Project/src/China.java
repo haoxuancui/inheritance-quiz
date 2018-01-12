@@ -1,13 +1,13 @@
 
 public class China 
 {
-		protected int population=1500;
+		protected int size=3705000;
 		public China()
 		{
 		System.out.println("China is the only ancient country that still exist");
 		}
 	
-		public China (int size)
+		public China (int population)
 		{
 			System.out.println("We have " + population + " millions people in China.");
 		}
